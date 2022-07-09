@@ -2,12 +2,12 @@ package template_method.beverage;
 
 public class Coffee extends CaffeineBeverage {
     @Override
-    void brew() {
+    protected void brew() {
         System.out.println("Dropping coffee through filter");
     }
 
     @Override
-    void addCondiments() {
+    protected void addCondiments() {
         System.out.println("Adding sugar and milk");
     }
 }

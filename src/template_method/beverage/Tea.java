@@ -3,12 +3,12 @@ package template_method.beverage;
 public class Tea extends CaffeineBeverage {
 
     @Override
-    void brew() {
+    protected void brew() {
         System.out.println("Stepping the tea");
     }
 
     @Override
-    void addCondiments() {
+    protected void addCondiments() {
         System.out.println("Adding Lemon");
     }
 }
