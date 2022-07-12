@@ -9,6 +9,7 @@ public class MementoTestDrive {
 
         man.setClothes("футблока, джинсы, кеды");
         robot.setBackpack(man.undress());
+        man.setClothes("шорты");
         man.dress(robot.getBackpack());
 
     }
