@@ -1,9 +1,9 @@
-package creational.abstractFactory.simpleFactory;
+package creational.abstract_factory.simpleFactory;
 
-import creational.abstractFactory.simpleFactory.pizza.CheesePizza;
-import creational.abstractFactory.simpleFactory.pizza.PepperoniPizza;
-import creational.abstractFactory.simpleFactory.pizza.Pizza;
-import creational.abstractFactory.simpleFactory.pizza.VeggiePizza;
+import creational.abstract_factory.simpleFactory.pizza.CheesePizza;
+import creational.abstract_factory.simpleFactory.pizza.PepperoniPizza;
+import creational.abstract_factory.simpleFactory.pizza.Pizza;
+import creational.abstract_factory.simpleFactory.pizza.VeggiePizza;
 
 public class SimplePizzaFactory {
 

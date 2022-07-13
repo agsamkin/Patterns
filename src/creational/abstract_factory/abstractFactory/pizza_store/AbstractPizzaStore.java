@@ -1,6 +1,6 @@
-package creational.abstractFactory.abstractFactory.pizza_store;
+package creational.abstract_factory.abstractFactory.pizza_store;
 
-import creational.abstractFactory.abstractFactory.pizza.Pizza;
+import creational.abstract_factory.abstractFactory.pizza.Pizza;
 
 public abstract class AbstractPizzaStore {
 

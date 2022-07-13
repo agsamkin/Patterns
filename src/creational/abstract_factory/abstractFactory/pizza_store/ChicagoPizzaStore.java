@@ -1,8 +1,8 @@
-package creational.abstractFactory.abstractFactory.pizza_store;
+package creational.abstract_factory.abstractFactory.pizza_store;
 
-import creational.abstractFactory.abstractFactory.pizza.Pizza;
-import creational.abstractFactory.abstractFactory.pizza.chicago_pizza.ChicagoCheesePizza;
-import creational.abstractFactory.abstractFactory.pizza.chicago_pizza.ChicagoPepperoniPizza;
+import creational.abstract_factory.abstractFactory.pizza.Pizza;
+import creational.abstract_factory.abstractFactory.pizza.chicago_pizza.ChicagoCheesePizza;
+import creational.abstract_factory.abstractFactory.pizza.chicago_pizza.ChicagoPepperoniPizza;
 
 public class ChicagoPizzaStore extends AbstractPizzaStore {
     @Override
